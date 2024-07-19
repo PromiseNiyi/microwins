@@ -1048,6 +1048,16 @@ display: none;
  .big-menu{
     display: none;
  }
+/* for order menu */
+
+ #menu{             
+
+    width: 350px;
+    height: 500px;
+
+}
+
+/* order menu ends */
 
  .land-section{
     min-height: 80vh;
