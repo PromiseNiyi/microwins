@@ -111,7 +111,19 @@ html{
     .small-menu ul{
     list-style: none;
     padding: 0;
-    margin: 80px 20px 20px 30px;
+    margin: 50px 20px 20px 30px;
+    }
+
+    .head{
+        display: flex;
+        margin: 30px 20px 0px 30px;
+        gap: 10rem;
+    }
+
+    .head h3{
+        font-size: 22px;
+    margin: 0;
+    padding: 0;
     }
 
     .small-menu ul li{
@@ -122,6 +134,7 @@ html{
         text-decoration: none;
         color: #000;
         font-size: 18px;
+        font-weight: 700;
     }
 
     .small-menu.active{
