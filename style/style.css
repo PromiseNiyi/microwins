@@ -234,7 +234,7 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 800px;
     min-height: 400px;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -275,7 +275,7 @@ button{
 
 .menu-content h3{
     font-weight: 700;
-    width: 60%;
+    width: 100%;
 }
 
 .menu-content p{
@@ -299,6 +299,23 @@ font-size: 14px;
     list-style: none;
     padding: 0;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    gap: 15px; /* Gap between the grid items */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Center the fifth item */
+.center {
+    grid-column: 1 / span 2; /* Span across both columns */
+    justify-self: center;    /* Center the item horizontally */
+    width: 50%;              /* Optional: adjust the width as needed */
+}
+
 
 #menu li {
     margin: 10px 0;
@@ -1084,9 +1101,51 @@ display: none;
  #menu{             
 
     width: 350px;
-    height: 500px;
+    min-height: 400px;
+    height: auto;
 
 }
+
+
+.menu-content {
+    height: 100%;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-content h2{
+    font-size: 25px;
+    padding: 6px 2px;
+  
+}
+
+.menu-content h3{
+    width: 60%;
+    line-height: 18px
+}
+
+
+.menu-content p{
+    font-size: 12px;
+}
+
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0; /* Gap between the grid items */
+}
+
+.center {
+
+    justify-self: center;    /* Center the item horizontally */
+    width: 100%;              /* Optional: adjust the width as needed */
+}
+
 
 /* order menu ends */
 
