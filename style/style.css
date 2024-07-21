@@ -117,11 +117,12 @@ html{
     .head{
         display: flex;
         margin: 30px 20px 0px 30px;
-        gap: 10rem;
+        /* gap: 5rem; */
+        justify-content: space-between;
     }
 
     .head h3{
-        font-size: 22px;
+    font-size: 22px;
     margin: 0;
     padding: 0;
     }
