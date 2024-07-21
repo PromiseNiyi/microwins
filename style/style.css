@@ -235,11 +235,13 @@ button{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 500px;
+    min-height: 400px;
+    height: auto;
     background-color: rgb(255, 255, 255);
     z-index: 1000;
     border-radius: 25px;
     transition: opacity 0.3s ease;
+    padding: 30px 0;
 }
  
 .hidden {
@@ -250,19 +252,37 @@ button{
 .menu-content {
     /* background-color: #fff; */
     height: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center;
-    background-color: #0bb457; */
+    justify-content: center;
+    /* background-color: #0bb457; */
     z-index: 1001;
+    gap: 15px;
+    text-align: center;
+}
 
+.menu-content h2{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: black;
+    width: 100%;
+    padding: 6px 2px;
+}
+
+.menu-content h3{
+    font-weight: 700;
+    width: 60%;
+}
+
+.menu-content p{
+color: #707070;
 }
 
 #close-menu {
-    position: absolute;
+    /* position: absolute; */
     top: 10px;
     right: 10px;
     font-size: 24px;
@@ -276,8 +296,13 @@ button{
 
 #menu li {
     margin: 10px 0;
+
 }
 
+#menu li img{
+    color: rgb(166, 166, 166);
+    max-width: 150px;
+}
 #menu a {
     text-decoration: none;
     color: #333;
