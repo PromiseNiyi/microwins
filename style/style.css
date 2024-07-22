@@ -42,6 +42,10 @@ html{
     display: flex;
     justify-content: space-between;
 }
+
+.big-menu h3{
+    color:rgb(249, 228, 0)  ;
+}
 .menu-cta ul{
     display: inline-flex;
     gap: 50px;
