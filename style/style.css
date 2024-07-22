@@ -1023,6 +1023,13 @@ footer p a{
 
 }
 
+.connect h4{
+    margin-bottom: 5px;
+}
+.connect a img{
+    width: 20px;
+    margin: 0 2px;
+}
 
 /* ///////////////////footer ends/////////////////// */
 
