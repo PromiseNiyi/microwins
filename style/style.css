@@ -574,6 +574,7 @@ width: 100%;
     text-align: center;
     z-index: 1;
     background-color: rgb(255, 255, 255);
+    padding: 0;
 }
 .ordernow-cta2{
     height: 100%;
@@ -1253,9 +1254,8 @@ display: none;
  }
 
  .ordernow-section{
-        min-height: 5vh;
-        height: auto;     
-         
+       height: 5vh;
+                 
  }  
  
   .download-section{
