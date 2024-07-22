@@ -1,9 +1,22 @@
+@font-face {
+    font-family: "articulat CF";
+    src: url(font/articulat/ArticulatCF-Normal.otf) format(otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "articulat CF";
+    src: url(font/articulat/ArticulatCF-Bold.otf) format(otf);
+    font-weight: bold;
+}
+
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'Poppins', sans-serif, monospace;
+    font-family: 'articulat CF',monospace;
     
     
 }
@@ -45,6 +58,7 @@ html{
 
 .big-menu h3{
     color:rgb(249, 228, 0)  ;
+    cursor: pointer;
 }
 .menu-cta ul{
     display: inline-flex;
@@ -439,7 +453,8 @@ width:70%;
     }
 .about p{
     margin-bottom: 20px;
-    font-size: 14px;
+    line-height: 25px;
+    /* font-size: 14px; */
     }  
     
     
@@ -512,8 +527,10 @@ width: 100%;
 
 .moving-text-wrapper {
     display: flex;
+    justify-content: center;
     white-space: nowrap;
     animation: moveText 20s linear infinite;
+    padding-top: 5px;
 }
 
 .moving-text {
@@ -704,6 +721,7 @@ form .consent{
 .writeups4 p{
     color: #000;
     padding: 10px;
+    line-height: 25px;
 }
 
 .learn-more-cta{
@@ -819,7 +837,7 @@ form .consent{
 
 .container {
     max-width: 1200px;
-    width: 95%;
+    width: 100%;
   }
   
   .slider-wrapper {
@@ -862,7 +880,7 @@ form .consent{
   
   .slider-wrapper .image-list {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     gap: 18px;
     font-size: 0;
     list-style: none;
@@ -1190,8 +1208,12 @@ display: none;
 
 .writeups p{
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 19px;
+}
+
+.writeups4 p{
+font-size: 15px;
 }
 
 
@@ -1205,7 +1227,7 @@ display: none;
 
 .about p{
     margin-bottom: 2px;
-    font-size: 14px;
+    font-size: 15px;
     }
 
 
@@ -1231,6 +1253,9 @@ display: none;
     
     .writeups-2 p{
         padding: 0 10px;
+        font-weight: bold;
+        line-height: 19px;
+
       }
     
     
@@ -1255,6 +1280,7 @@ display: none;
      .moving-text-container {
         min-height: 6vh;
         height: auto;
+        /* padding-top: 12px; */
  }
  
  .moving-logo-container {
