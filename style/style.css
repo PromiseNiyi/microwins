@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "articulat CF";
     src: url(/font/articulat/ArticulatCF-Normal.otf) format(otf);
     font-weight: normal;
@@ -7,16 +7,16 @@
     font-family: "articulat CF";
     src: url(/font/articulat/ArticulatCF-Bold.otf) format(otf);
     font-weight: bold;
-}
+} */
 
-
+/* 'articulat CF',  */
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'articulat CF', 'poppins',monospace;
+    font-family: 'poppins',monospace;
     
     
 }
