@@ -628,6 +628,7 @@ width: 100%;
     border: 2px solid rgb(249, 228, 0);
     border-bottom: none;
     transition: all ease .3s;
+    margin: 0;
     }
 
     .ordernow-cta2:hover{
@@ -1320,14 +1321,17 @@ font-size: 15px;
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
-    padding: 20px 40px;
+    padding: 20px 40px 10%;
 }
 .color-block1 p{
     width:100%;
      }
+.color-block2{
+padding: 25% 40px 20px;
+     }
 
 .writeups-2{
-    padding: 20px 20px 20px;
+    padding: 15px 20px 20px;
 
     }
     
@@ -1345,13 +1349,13 @@ font-size: 15px;
     
     
      .overlap-image{
-        display: none;
+        /* display: none; */
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         /* z-index: 10; */
-        max-width: 90%;
+        max-width: 30%;
     
      }
 
@@ -1377,9 +1381,20 @@ font-size: 15px;
  }
 
  .ordernow-section{
-       height: 5vh;
-                 
+       /* max-height: 8vh; */
+       height: auto;
+       padding: 0;          
  }  
+
+ .ordernow-cta2{
+    padding: 10px 15px;
+ }
+ .ordernow-cta2:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 0;
+ }
  
   .download-section{
      min-height: 45vh;
@@ -1450,6 +1465,12 @@ footer .hero{
 }
 .more-writeups{
     display: none;
+}
+
+.overlap-image{
+    /* display: none; */
+    position: absolute;
+    top: 65%;
 }
 
  }
