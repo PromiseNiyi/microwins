@@ -16,7 +16,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'articulat CF',monospace;
+    font-family: 'articulat CF', 'poppins',monospace;
     
     
 }
@@ -32,7 +32,7 @@ html{
 
 .land-section{
     padding: 35px 35px 45px;
-    height: 60vh;
+    height: 70vh;
     background-image:  linear-gradient(to bottom,rgba(5, 5, 4, 0.94), rgba(46, 43, 3, 0.866)), url(/images/_f11812a4-8ff6-42e5-995e-6c9e4f031dba.jpeg);
     background-position: center;
     background-size: cover;
@@ -192,8 +192,9 @@ button{
 }
 
 .writeups h1{
-    font-size: 50px;
+    font-size:60px;
     font-weight: 500;
+    font-weight: 700;
     color:  rgb(249, 228, 0);
 }
 
@@ -397,7 +398,7 @@ font-size: 14px;
 .about{
     /* align-items: center;
     text-align: center; */
-    padding-top: 35px;
+    /* padding-top: 35px; */
     color: #000;
     display: flex;
     flex-direction: column;
@@ -418,6 +419,7 @@ font-size: 14px;
     padding: 60px 20px 15px;
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -428,7 +430,7 @@ font-size: 14px;
     background-color:  rgb(249, 228, 0);
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
  };
 
  .color-block p, h3{
@@ -440,7 +442,7 @@ font-size: 14px;
  }
  
  .color-block1 p{
-width:70%;
+    width:70%;
  }
  .about p, h3{
     color: #000;
@@ -449,7 +451,8 @@ width:70%;
     }
 
     .about h3{
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom: 25px;
     }
 .about p{
     margin-bottom: 20px;
@@ -478,18 +481,22 @@ span{
 .writeups-2{
 align-items: center;
 text-align: center;
-padding: 270px 50px 10px;
+justify-content: center;
+padding: 20px 50px 10px;
 width: 100%;
 }
 
 .writeups-2 h2{
     color: #000;
-    font-size:50px;
+    font-size:60px;
     font-weight: 500;
+    font-weight: 700;
 }
 
 .writeups-2 p{
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 600;
     color: #000;
     text-transform: uppercase;
     text-align: center;
@@ -498,15 +505,26 @@ width: 100%;
 
 }
 
+.overlap-image, .overlap-image2{
+    position: absolute;
+    max-width: 30rem;
+}
 
 
  .overlap-image{
-    position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 73%;
+    left: 15%;
     transform: translate(-50%, -50%);
     /* z-index: 10; */
-    max-width: 100%;
+
+ }
+
+ .overlap-image2{
+    top: 73%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    /* z-index: 10; */
+    
 
  }
 
