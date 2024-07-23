@@ -1,11 +1,11 @@
 @font-face {
     font-family: "articulat CF";
-    src: url(font/articulat/ArticulatCF-Normal.otf) format(otf);
+    src: url(/font/articulat/ArticulatCF-Normal.otf) format(otf);
     font-weight: normal;
 }
 @font-face {
     font-family: "articulat CF";
-    src: url(font/articulat/ArticulatCF-Bold.otf) format(otf);
+    src: url(/font/articulat/ArticulatCF-Bold.otf) format(otf);
     font-weight: bold;
 }
 
