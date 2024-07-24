@@ -1351,7 +1351,7 @@ padding: 25% 40px 20px;
      .overlap-image{
         /* display: none; */
         position: absolute;
-        top: 60%;
+                top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         /* z-index: 10; */
@@ -1467,10 +1467,20 @@ footer .hero{
     display: none;
 }
 
+.color-block2{
+    padding: 25% 40px 20px;
+}
+
+.writeups-2{
+    margin-top: 50%;
+}
+
 .overlap-image{
+
     /* display: none; */
-    position: absolute;
-    top: 65%;
+    /* transform: translate(-50%, -100%); */
+    top: 70%;
+    max-width: 40%;
 }
 
  }
