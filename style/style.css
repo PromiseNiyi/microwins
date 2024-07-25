@@ -757,7 +757,8 @@ form{
 
 
 input{
-    background-color: transparent;
+    background-color: none;
+    background-color: #000;
     border: none;
     outline: none;
     margin-left: 10px;
@@ -1529,6 +1530,12 @@ padding: 25% 40px 20px;
  line-height: 40px;
  }
 
+
+ .modal-content {
+    background-color: rgb(255, 255, 255);
+    height: 28vh;
+}
+
  .author-section{
     min-height: 50vh;
     height: auto;
@@ -1612,6 +1619,13 @@ footer .hero{
 
 .logo-grid img {
     width: 90px;
+}
+
+
+
+.modal-content {
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
 }
 
  }
