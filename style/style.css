@@ -1,14 +1,19 @@
-/* @font-face {
+@font-face {
     font-family: "articulat CF";
-    src: url(/font/articulat/ArticulatCF-Normal.otf) format(otf);
+    src: url(font/ArticulatCF-Normal.otf) format(otf);
     font-weight: normal;
 }
 @font-face {
-    font-family: "articulat CF";
-    src: url(/font/articulat/ArticulatCF-Bold.otf) format(otf);
+    font-family: "Articulat CFa";
+    src: url(font/ArticulatCF-Bold.otf) format(otf);
     font-weight: bold;
-} */
+} 
 
+@font-face {
+    font-family: "Optician-Sans";
+    src: url(font/Optician-Sans.otf) format(otf);
+    font-weight: bold;
+}
 /* 'articulat CF',  */
 
 *{
@@ -16,7 +21,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: poppins, sans-serif, monospace;
+    font-family: 'Articulat CF', monospace;
     
     
 }
@@ -33,7 +38,7 @@ html{
 .land-section{
     padding: 35px 35px 45px;
     height: 100vh;
-    background-image:  linear-gradient(to bottom,rgba(5, 5, 4, 0.94), rgba(46, 43, 3, 0.866)), url(/image2/hero-main.jpg);
+    background-image:  linear-gradient(to bottom,rgba(5, 5, 4, 0.828), rgba(46, 43, 3, 0.781)), url(/image2/hero-main.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -553,6 +558,7 @@ width: 100%;
     white-space: nowrap;
     animation: moveText 20s linear infinite;
     padding-top: 5px;
+    
 }
 
 .moving-text {
@@ -574,20 +580,62 @@ width: 100%;
 
 /* ///////////////////////////////////// */
 .moving-logo-container {
-    position: relative;
+    /* position: relative; */
     width: 100%;
-    height: 10vh;
+    min-height: 25vh;
+    height: auto;
     background-color: #fff;
     display: flex;
     align-items: center;
     overflow: hidden;
+    justify-content: center;
+    padding: 20px;
  
 }
 
 .moving-logo-wrapper {
-    display: flex;
+    /* display: flex; */
+    display: none;
     white-space: nowrap;
     animation: moveLogos 40s linear infinite;
+}
+
+.logo-grid {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto; */
+    gap: 25px;
+    width: 100%;
+    /* max-width: 1500px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-grid a {
+    display: block;
+    text-align: center;
+}
+.logo-grid img {
+    width: 150px;
+    height: auto;
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+    box-sizing: border-box;
+
+}
+
+.first-level, .second-level{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 55px; */
+    /* padding-inline:clamp(2rem,4vw, 9rem); */
+}
+
+.first-level a, .second-level a{
+    padding-inline:clamp(2rem,40vw, 1rem);
 }
 
 
@@ -1373,12 +1421,7 @@ padding: 25% 40px 20px;
         /* padding-top: 12px; */
  }
  
- .moving-logo-container {
-    min-height: 15vh;
-    height: auto;
-    padding:0 10px;
 
- }
 
  .ordernow-section{
        /* max-height: 8vh; */
@@ -1396,6 +1439,12 @@ padding: 25% 40px 20px;
     border-bottom: 0;
  }
  
+
+ .logo-grid img {
+    width: 120px;
+}
+
+
   .download-section{
      min-height: 45vh;
      height: auto;
@@ -1481,6 +1530,15 @@ footer .hero{
     /* transform: translate(-50%, -100%); */
     top: 70%;
     max-width: 40%;
+}
+
+
+.first-level a, .second-level a{
+    padding-inline:clamp(1rem,40vw, 1rem);
+}
+
+.logo-grid img {
+    width: 90px;
 }
 
  }
