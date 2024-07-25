@@ -231,15 +231,23 @@
             <P>start living the life of total success<br>prioritizing what matters.<br>get the resources to microwin daily</P>
         </div>
         <div class="form fade-in">
-            <form action="#">
+            <form  id="subscriptionForm">
                 <div class="email">
                     <label for="email" style="font-family: Articulat CF;">Enter Email Address</label>
-                    <input type="email" name="email">
+                    <input type="email" id="email" name="email" style="font-family: Articulat CF;" required>
                 </div>
                 <p class="consent" style="font-family: Articulat CF;">By entering email address,<br>I consent to receiving newsletter from Microwins</p>
-                <button class="download-cta">DOWNLOAD NOW</button>
+                <button class="download-cta" type="submit">DOWNLOAD NOW</button>
             </form>
 
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <h2>Thank you for subscribing!</h2>
+                <p style="font-family: Articulat CF; text-transform: capitalize; color: black;">Your download is ready.</p>
+                <button id="downloadButton">Download PDF</button>
+            </div>
         </div>
 
     </section>
@@ -391,5 +399,52 @@
     <script src="script/carousel.js" defer></script>
     <script src="/script/scriptcarousel.js" defer></script>
     <script src="/script/popup.js"></script>
+
+
+
+
+    <script>
+        document.getElementById('subscriptionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const email = document.getElementById('email').value;
+            
+            if (email) {
+                // Simulate email submission (e.g., send to server here)
+                // alert('Subscription successful!');
+    
+                // Show the modal
+                document.getElementById('myModal').style.display = 'flex';
+            } else {
+                // alert('Please enter a valid email address.');
+            }
+        });
+    
+        document.getElementById('downloadButton').addEventListener('click', function() {
+            // Create a link element and trigger download
+            const link = document.createElement('a');
+            link.href = 'path/to/your.pdf'; // Replace with the actual path to your PDF file
+            link.download = 'yourfile.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+    
+            // Close the modal
+            document.getElementById('myModal').style.display = 'none';
+        });
+    
+        // Close the modal if the user clicks outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('myModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+
+
+
+
+
+
 </body>
 </html>
