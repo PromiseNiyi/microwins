@@ -796,15 +796,20 @@ form .consent{
     .modal-content {
         background-color: rgb(255, 255, 255);
         height: 20vh;
+        /* height: auto; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding: 20px; */
+        padding: 0 0 30px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-
+.modal-content img{
+   position: relative;
+   width: 100px;
+   top: -10%; 
+}
     .modal-content h2{
         background-color: #000;
         padding: 5px;
