@@ -1,17 +1,17 @@
 @font-face {
     font-family: "articulat CF";
-    src: url(font/ArticulatCF-Normal.otf) format(otf);
+    src: url(/font/ArticulatCF-Normal.otf) format(otf);
     font-weight: normal;
 }
 @font-face {
     font-family: "Articulat CF";
-    src: url(font/ArticulatCF-Bold.otf) format(otf);
+    src: url(/font/ArticulatCF-Bold.otf) format(otf);
     font-weight: bold;
 } 
 
 @font-face {
     font-family: "Optician-Sans";
-    src: url(font/Optician-Sans.otf) format(otf);
+    src: url(/font/Optician-Sans.otf) format(otf);
     font-weight: bold;
 }
 /* 'articulat CF',  */
