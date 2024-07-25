@@ -1,27 +1,36 @@
 @font-face {
-    font-family: "articulat CF";
-    src: url(/font/ArticulatCF-Normal.otf) format(otf);
+    font-family: 'Articulat CF Normal';
+    src: url('font/subset-ArticulatCF-Normal.woff2') format('woff2'),
+        url('font/subset-ArticulatCF-Normal.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face {
-    font-family: "Articulat CF";
-    src: url(/font/ArticulatCF-Bold.otf) format(otf);
-    font-weight: bold;
-} 
 
 @font-face {
-    font-family: "Optician-Sans";
-    src: url(/font/Optician-Sans.otf) format(otf);
+    font-family: 'Articulat CF';
+    src: url('font/subset-ArticulatCF-Bold.woff2') format('woff2'),
+        url('font/subset-ArticulatCF-Bold.woff') format('woff');
     font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
-/* 'articulat CF',  */
+
+@font-face {
+    font-family: 'Optician Sans';
+    src: url('font/subset-OpticianSans-Regular.woff2') format('woff2'),
+        url('font/subset-OpticianSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'Articulat CF', monospace;
+    font-family: 'Optician Sans', monospace;
     
     
 }
@@ -200,8 +209,7 @@ button{
 
 .writeups h1{
     font-size:8rem;
-    font-weight: 500;
-    font-weight: 600;
+font-weight: 400;
     color:  rgb(249, 228, 0);
     line-height: 8rem;
 }
@@ -449,6 +457,7 @@ font-size: 14px;
  }
  
  .color-block1 p{
+    font-family: Articulat CF, sans-serif;
     width:90%;
  }
  .about p, h3{
@@ -464,14 +473,17 @@ font-size: 14px;
 .about p{
     margin-bottom: 20px;
     line-height: 25px;
+    
     /* font-size: 14px; */
     }  
     
     
 .more-text {
+        font-family: Articulat CF, sans-serif;
         display: none;
     }
 span{
+    
     color: #000;
 }
  
@@ -794,9 +806,14 @@ form .consent{
 }
 
 .writeups4 p{
+    font-family: Articulat CF;
     color: #000;
     padding: 10px;
     line-height: 25px;
+}
+
+.more-writeups{
+    font-family: Articulat CF;
 }
 
 .dotts{
@@ -1122,9 +1139,11 @@ footer h4, h2{
 footer p{
     text-align: center;
     font-size: 14px;
+    
 }
 
 footer p a{
+    font-family: Articulat CF;
     text-decoration: none;
 
 }
@@ -1403,7 +1422,7 @@ padding: 25% 40px 20px;
         left: 50%;
         transform: translate(-50%, -50%);
         /* z-index: 10; */
-        max-width: 30%;
+        max-width: 28%;
     
      }
 
