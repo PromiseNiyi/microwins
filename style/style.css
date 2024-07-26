@@ -440,7 +440,8 @@ letter-spacing: 1px;
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
 }
 
 .color-block{
@@ -453,7 +454,8 @@ letter-spacing: 1px;
 
 .color-block1{
     background-color: #fff;
-    padding: 60px 15px 15px;
+    padding: 5rem 15px 15px;
+    padding-bottom: 15rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -468,6 +470,8 @@ letter-spacing: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem
  };
 
  .color-block p, h3{
@@ -1167,6 +1171,7 @@ form .consent{
     .slider-scrollbar .scrollbar-thumb {
       width: 20%;
     }
+
   }
 /* ///////////////////////////new carousel ends/////////// */
 
@@ -1298,9 +1303,9 @@ footer p a{
         height: 65vh;
     } */
 
-    .color-block1 p{
-        /* padding: 0px 65px; */
-    }
+    /* .color-block1 p{
+     padding: 0px 65px; 
+    } */
 
 
 
