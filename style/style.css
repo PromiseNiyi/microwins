@@ -464,7 +464,14 @@ letter-spacing: 1px;
 .center {
     grid-column: 1 / span 2; /* Span across both columns */
     justify-self: center;    /* Center the item horizontally */
-    width: 50%;              /* Optional: adjust the width as needed */
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.center p{
+    color: #000;
 }
 
 
@@ -472,6 +479,7 @@ letter-spacing: 1px;
     margin: 10px 0;
 
 }
+
 
 #menu li img{
     color: rgb(166, 166, 166);
@@ -1643,9 +1651,6 @@ display: none;
     /*.big-menu{
          width: 85%; */
 
-    .book-mock{
-        /* order: 2; */
-    }
     .writeups h1{
         font-size: 21px;
     }
@@ -2024,6 +2029,13 @@ footer .hero{
     display: block;
     
     }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 50px;
+      }
 }
 
 
@@ -2125,12 +2137,7 @@ input{
     letter-spacing: 1px;
        
 }
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    padding: 50px;
-  }
+
 
 footer{
     padding: 30px 10px;
