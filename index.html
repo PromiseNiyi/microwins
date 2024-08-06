@@ -271,7 +271,7 @@
         </div>
     </section>
 
-    <section class="moving-logo-container">
+    <!-- <section class="moving-logo-container"> -->
         <!-- <div class="moving-logo-wrapper">
             <img src="icons/audible.png" class="logo" alt="Logo 1">
             <img src="icons/barnes-noble-logo-black-and-white-3.png" class="logo" alt="Logo 2">
@@ -355,12 +355,16 @@
         </div> -->
 
 
-    </section>
+    <!-- </section> -->
 
-    <section class="ordernow-section">
+<section class="sneak-peak">
+    <h3>GET A SNEAK PEAK</h3>
+</section>
+
+    <!-- <section class="ordernow-section">
         <button class="ordernow-cta2" id="ordercta3" >ORDER NOW</button> 
-    </section>
-    <section class="download-section" id="download-section">
+    </section> -->
+    <!-- <section class="download-section" id="download-section">
         <div class="writeups3 fade-in">
             <h1>THE <span class="yellow-color">MICROWINS</span> <br> TOOLKITS FOR FREE</h1>
             <P>start living the life of total success <br>prioritizing what matters.<br> Get the resources to microwin daily</P>
@@ -386,35 +390,64 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
+<section class="pdf-reader">
+
+    <div id="viewer" style="width: 100%; height: 700px;"></div>
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+    <script>
+      const config = { 
+        documentId: '76b78afe-a756-4d9c-b5fc-28a1a5ad39cf',
+        appBarColored:true,
+        themeColor:'rgb(249, 228, 0)',
+        darkMode: true, 
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
+
+</section>
+
+
+
+
+
     <section class="author-section" id="DKR">
         <div class="writeups4 fade-in">
             <h3>MEET THE AUTHOR - DKR</h3>
-            <p>Recognised as a “Top 20 Global Keynote Speaker” Daron K. Roberts is a serial reinventor. 
-                After graduating from Harvard Law School, he coached in the National Football League and 
-                college for seven years. He was fired from the Cleveland Browns in 2013. Daron packed up 
-                his family and belongings and moved to Austin, Texas, where he launched the Center for Sports 
-                Leadership and Innovation (CSLi) at the University of Texas. After leading that Center and 
-                teaching business and leadership courses for eight years, Daron escaped from academia to 
-                expand Deep End Ventures, an untraditional leadership dive school where he currently serves 
-                as chief dive instructor.<span class="dotts">..</span>
-             <span class="more-writeups">
+            <p>Every seven years, Daron’s work goes through a natural crop rotation that mirrors the sabbatical year or “shmita” in the Jewish tradition. 
+                Daron coached in the National Football League and college for seven years, before taking a break. 
+                Then, he launched the Center for Sports Leadership and Innovation (CSLi) at the University of Texas. 
+                After leading the Center for  seven years and teaching courses in business and leadership, 
+                he took another break.
+             <!-- <span class="more-writeups"> -->
                 <br>
                 <br>
-                He is the author of “A Kids Book About Empathy” and “Call an Audible”. “A Kids Book About Empathy” 
-                was named to “Oprah’s Favorite Things” list and “Call an Audible” was tabbed as a #1 New Release and 
-                Best Seller by Amazon. Sports Illustrated selected the book as one of its “Best Sports Business Books” in 2017. 
+                Today he serves as the chief dive instructor of Deep End Ventures.  he devotes the lion’s 
+                share of his crafting hours to speaking and writing.   He is the author of “A Kids Book About Empathy” 
+                and “Call an Audible”. “A Kids Book About Empathy” was named to “Oprah’s Favorite Things” list and “Call an 
+                Audible” was tabbed as a #1 New Release and Best Seller by Amazon. Sports Illustrated selected the book as one of its “Best Sports Business Books”.  
                 <br>
                 <br>
                 Roberts was honored as LinkedIn’s #1 Top Voice in Sports and is a graduate of the University of Texas, Harvard Kennedy School and Harvard Law School.
                 Daron and his wife, Hilary, chase five children through the streets of Austin, Texas.
-            </span>
+            <!-- </span> -->
+                <br>
+                <br>
+                Recognized as a “Top 20 Speaker to Watch” Daron emboldens corporate teams to He currently 
+                serves as the co-founder of Monetize Your Message. MYM empowers professionals to launch and 
+                leverage their speaking business.  Roberts was honored as LinkedIn’s #1 Top Voice in Sports. 
+                He is a graduate of the University of Texas, Harvard Kennedy School and Harvard Law School.
+                <br>
+                <br>
+                He and his wife, Hilary, chase five children through the streets of Austin.
             
             </p>
         </div>
         <a href="https://www.coachdkr.com " target="_blank" class="learn-more-cta fade-in">LEARN MORE</a>
     </section>
-    <section class="carousel-section">
+    <!-- <section class="carousel-section">
         <div class="carousel-container">
             <div class="carousel">
             
@@ -431,20 +464,18 @@
         </div>
         
 
-    </section>
+    </section> -->
 
 
 
-
+<!-- 
 <section class="newcarousel">
     <div class="container">
         <div class="slider-wrapper">
           <button id="prev-slide" class="slide-button material-symbols-rounded">
-            <!-- &lt; -->
+
             <span class="material-symbols-outlined">
-                <!-- arrow_back_ios -->
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#000000"><path d="m304-82-56-57 343-343-343-343 56-57 500 400L304-82Z"/></svg> -->
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="-50 -960 960 960" width="24px"  fill="#000000"><path d="M400-80 0-480l400-400 56 57-343 343 343 343-56 57Z"/></svg>-->
+                
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="-50 -960 960 960" width="24px" fill="#000000">
                     <path d="M400-80 0-480l400-400 56 57-343 343 343 343-56 57Z" stroke="#000000" fill="#000000" stroke-width="50"/>
                   </svg>
@@ -469,17 +500,17 @@
             <img class="image-item" src="image2/daron_roberts_10-14-22-114.jpg" alt="img-10" />
           </ul>
           <button id="next-slide" class="slide-button material-symbols-rounded">
-           <!-- &gt; -->
+      
            <span class="material-symbols-outlined">
-            <!-- arrow_forward_ios -->
+ 
              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
                 <path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z" stroke="#000000" fill="#000000" stroke-width="50"/></svg>
             </span>
             </style>
           </button>
-          <!-- Overlay for fade effect at the start -->
+   
           <div class="carousel-overlay-left"></div>
-          <!-- Overlay for fade effect at the end -->
+
           <div class="carousel-overlay-right"></div>
 
 
@@ -490,10 +521,19 @@
           </div>
         </div>
       </div>
-</section>
+</section> -->
 
-
-
+<section class="gallery">
+    <div>
+      <img src="images/image 3.png" alt="Image 1">
+    </div>
+    <div>
+      <img src="images/image 2.png" alt="Image 2">
+    </div>
+    <div>
+      <img src="images/image 1.png" id="last-image" alt="Image 3">
+    </div>
+  </section>
 
 
 
