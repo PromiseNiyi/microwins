@@ -47,7 +47,7 @@ html{
 .land-section{
     padding: 35px 35px 45px;
     height: 100vh;
-    background-image:  linear-gradient(to bottom,rgba(5, 5, 4, 0.828), rgba(46, 43, 3, 0.781)), url(/image2/hero-main.jpg);
+    background-image:  linear-gradient(to bottom,rgba(5, 5, 4, 0.828), rgba(94, 88, 7, 0.19)), url(/images/land-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,6 +57,44 @@ html{
     align-items: center;
     text-align: center;
 }
+
+
+.main-land h3{
+    font-size: 20px;
+    font-family: 'Articulat CF Normal';
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.main-in{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.book-mock img{
+    width: 750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .land-section .menu{
     display: flex;
@@ -213,8 +251,8 @@ button{
 
 .writeups{
     margin-top: 10rem;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     margin-bottom: 35px;
 }
 
@@ -223,14 +261,18 @@ button{
     font-weight: 400;
     color:  rgb(249, 228, 0);
     margin-top: 15rem;
+    margin-left: -15px;
     /* line-height: 8rem; */
 }
+.writeups .right-side{
+    text-align: left;
+}
 
-.writeups p{
+.writeups .right-side p{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: .5px;
-    line-height: 19px;
+    line-height: 30px;
     
 }
 
@@ -442,6 +484,7 @@ letter-spacing: 1px;
     position: relative;
     min-height: 80vh;
     height: auto;
+    display: none;
 }
 
 .color-block{
@@ -580,7 +623,104 @@ width: 100%;
 
  }
 
+
+ 
+
 /* ///////////////////////////////end of about section/////////////////// */
+
+/* ////////////////////////////////////Author talk///////////////////////// */
+
+.author-talk{
+    height: 100vh;
+    background-image: url(/images/concrete-wall-scratched-material-background-texture-concept\ copy\ 2.png);
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0 0 25px;
+    position: relative;
+}
+
+.author-talk h2{
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.sub-section{
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+
+.sub-section .imagee{
+    position:absolute;
+    left: 90%;
+    bottom: -1%;
+    transform: translate(-50%);
+}
+.sub-section img{
+       width: 85rem;
+}
+
+.sub-writeup{
+    width: 70%;
+    margin-top: 10rem;
+    margin-left: 130px;
+    gap: 25px;
+}
+
+.sub-writeup p, .sub-writeup span {
+    font-family:'Articulat CF Normal';
+    font-size: 20px;
+    color: #000;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.sub-writeup span, .instru {
+    font-weight: bold;
+    font-style: italic;
+}
+.sub-writeup .inspan{
+    font-style: normal;
+}
+.sub-writeup img{
+    /* left: 50%; */
+position: relative;
+width: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////end of author talk//////////////////////// */
+
+
+
 
 /* ///////////////////moving text and logo///////////////// */
 
@@ -643,6 +783,16 @@ width: 100%;
     animation: moveLogos 40s linear infinite;
 }
 
+.buy-logo{
+    min-height: 25vh;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo-grid {
     display: flex;
     flex-direction: column;
@@ -661,7 +811,7 @@ width: 100%;
     text-align: center;
 }
 .logo-grid img {
-    width: 150px;
+    width: 180px;
     height: auto;
     /* border: 1px solid red; */
     /* padding: 10px; */
@@ -669,10 +819,15 @@ width: 100%;
 
 }
 
+.logo-grid .bam{
+    width: 130px;
+}
+
 .first-level, .second-level{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     /* gap: 55px; */
     /* padding-inline:clamp(2rem,4vw, 9rem); */
 }
@@ -680,7 +835,10 @@ width: 100%;
 .first-level a, .second-level a{
     padding-inline:clamp(2rem,40vw, 1rem);
 }
-
+.second-level p{
+    color: #000;
+    font-family: 'Articulat CF Normal';
+}
 
 
 .logo {
