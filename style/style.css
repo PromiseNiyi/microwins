@@ -716,13 +716,15 @@ width: 100%;
     width: 100%;
 }
 
-.author-talk h2{
+.author-talk h3{
     color: black;
-    font-size: 50px;
+    font-size: 55px;
+    line-height: 65px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-left: 20px;
     margin-right: 20px;
+    letter-spacing: 1px;
 }
 
 .sub-section{
@@ -736,7 +738,7 @@ width: 100%;
 .sub-section .imagee{
     position:absolute;
     left: 90%;
-    bottom: -1%;
+    bottom: -10%;
     transform: translate(-50%);
 }
 .sub-section img{
@@ -745,7 +747,7 @@ width: 100%;
 
 .sub-writeup{
     width: 65%;
-    margin-top: 5rem;
+    margin-top: 1rem;
     color: #000;
     /* margin-left: 70px; */
     
@@ -812,9 +814,9 @@ width: 15px;
 .sneak-peak h3{
     color: #000;
     letter-spacing: 1px;
-    font-size: 4rem;
+    font-size: 55px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 65px;
 }
 
 
@@ -1213,7 +1215,8 @@ form .consent{
 .writeups4 h3{
     margin-bottom: 15px;
     letter-spacing: 1px;
-    font-size: 4rem;
+    font-size: 55px;
+    line-height: 65px;
     font-weight: 400;
 }
 
@@ -1481,7 +1484,9 @@ form .consent{
     .slider-scrollbar .scrollbar-thumb {
       width: 20%;
     } */
-
+    .author-talk h3{
+        margin-bottom: 50px;
+    }
 
   }
 /* ///////////////////////////new carousel ends/////////// */
@@ -1787,9 +1792,9 @@ display: none;
         margin-top:15px ;
     }
 
-/* .writeups{
+.writeups{
     margin-top: 5rem;
-} */
+} 
 
  .writeups h1{
     margin-top: 2rem;
@@ -1822,7 +1827,7 @@ display: none;
 }
 .sneak-peak h3{
     font-size: 35px;
-    /* line-height: 25px;   */
+    line-height: 40px;  
 }
 
 .writeups4 h3{
@@ -1966,9 +1971,11 @@ padding: 25% 40px 20px;
     bottom: -5%;
     transform: translate(-10%, 1% );
 }
-.author-talk h2{
+.author-talk h3{
     color: black;
-    font-size: 45px;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 5px;
 }
 
 .sub-section .imagee img{
@@ -1976,7 +1983,7 @@ width: 60rem;
 }
 .sub-writeup{
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 2rem;
     /* margin-left: 25px; */
     /* margin-right: 25px; */
     }
@@ -2008,7 +2015,8 @@ width: 60rem;
 }
 
 .writeups4 h3{
-    font-size: 23px;
+    font-size: 35px;
+    line-height: 40px;
 }
 
 /* .slider-wrapper .slide-button {
@@ -2153,6 +2161,12 @@ input{
     width: auto;
 }
 
+.author-talk h3{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
 .sub-section .imagee img{
     width: 40rem;
     }
@@ -2164,6 +2178,16 @@ input{
     /* left: 100%; */
     bottom: 50%;
     transform: translate(-25%, 1%);
+}
+
+.writeups4 h3{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.sneak-peak h3{
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .learn-more-cta{
