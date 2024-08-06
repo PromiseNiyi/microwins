@@ -1808,15 +1808,21 @@ display: none;
     line-height: 20px;
 }
 .sneak-peak h3{
-    font-size: 25px;
+    font-size: 35px;
     line-height: 25px;  
+}
+
+.writeups4 h3{
+    margin-top: 25px;
+    font-size: 45px;
+    line-height: 25px; 
 }
 .main-land h3{
     font-size: 16px;
     line-height: 25px;
 }
 .writeups4 p{
-font-size: 15px;
+font-size: 5px;
 }
 
 
@@ -1938,7 +1944,7 @@ padding: 25% 40px 20px;
 .sub-section{
     flex-direction: column;
     width: 100%;
-    padding: 10px 25px;
+    padding: 10px 25px 0;
 }
 
 .sub-section .imagee{
@@ -1947,8 +1953,8 @@ padding: 25% 40px 20px;
     align-items: center;
     text-align: center;
     /* left: 100%; */
-    bottom: 50%;
-    transform: translate(-10%);
+    bottom: -5%;
+    transform: translate(-10%, 1% );
 }
 .author-talk h2{
     color: black;
@@ -2147,7 +2153,7 @@ input{
     text-align: center;
     /* left: 100%; */
     bottom: 50%;
-    transform: translate(-25%);
+    transform: translate(-25%, 1%);
 }
 
 .learn-more-cta{
