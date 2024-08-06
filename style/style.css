@@ -288,7 +288,7 @@ html{
     .small-menu ul li a{
         text-decoration: none;
         color: #000;
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 700;
     }
 
@@ -746,15 +746,16 @@ width: 100%;
 .sub-writeup{
     width: 65%;
     margin-top: 5rem;
+    color: #000;
     /* margin-left: 70px; */
     
 }
 
 .sub-writeup p, .sub-writeup span {
     font-family:'Articulat CF Normal';
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
-    line-height: 35px;
+    line-height: 30px;
     font-weight: 500;
 }
 
@@ -799,7 +800,8 @@ width: 15px;
 
 /* /////////////////////////////sneak-peak////////////////// */
 .sneak-peak{
-    height: 10vh;
+    min-height: 10vh;
+    height: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -812,11 +814,23 @@ width: 15px;
     letter-spacing: 1px;
     font-size: 4rem;
     font-weight: 400;
+    line-height: 40px;
 }
 
 
 
 /* ////////////////////////////////end sneak peak/////////// */
+
+/* //////////////////pdf-reader//////////////////// */
+.pdf-reader{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ////////////////////////end of PDF//////////////////// */
+
 
 /* ////////////////////////////gallery////////////////////////// */
 
@@ -1207,8 +1221,9 @@ form .consent{
     font-family: Articulat CF;
     color: #000;
     padding: 10px;
-    line-height: 25px;
+    line-height: 30px;
     letter-spacing: .5px;
+    font-size: 18px;
 }
 
 .more-writeups{
@@ -1807,7 +1822,7 @@ display: none;
 }
 .sneak-peak h3{
     font-size: 35px;
-    line-height: 25px;  
+    /* line-height: 25px;   */
 }
 
 .writeups4 h3{
@@ -1818,9 +1833,6 @@ display: none;
 .main-land h3{
     font-size: 16px;
     line-height: 25px;
-}
-.writeups4 p{
-font-size: 15px;
 }
 
 
