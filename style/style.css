@@ -682,8 +682,10 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 100px 0 50px ;
+    padding: 100px 0 50px 50px ;
     position: relative;
+    overflow: hidden;
+    width: 100%;
 }
 
 .author-talk h2{
@@ -691,12 +693,15 @@ width: 100%;
     font-size: 50px;
     font-weight: 400;
     margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .sub-section{
     width: 100%;
     display: flex;
     text-align: left;
+    /* overflow: hidden; */
 }
 
 
@@ -713,8 +718,8 @@ width: 100%;
 .sub-writeup{
     width: 65%;
     margin-top: 5rem;
-    margin-left: 70px;
-    gap: 25px;
+    /* margin-left: 70px; */
+    
 }
 
 .sub-writeup p, .sub-writeup span {
@@ -755,7 +760,7 @@ width: 15px;
     .sub-writeup{
         width: 60%;
         margin-top: 4rem;
-        margin-left: 25px;
+        /* margin-left: 25px; */
         padding-bottom: 25px;
         /* gap: 25px; */
     }   
@@ -1777,7 +1782,10 @@ display: none;
     font-size: 16px;
     line-height: 20px;
 }
-
+.sneak-peak h3{
+    font-size: 25px;
+    line-height: 25px;  
+}
 .main-land h3{
     font-size: 16px;
     line-height: 25px;
@@ -1894,6 +1902,55 @@ padding: 25% 40px 20px;
  line-height: 40px;
  }
 
+ .author-talk{
+    padding: 100px 10px 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+ }
+
+.sub-section{
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 25px;
+}
+
+.sub-section .imagee{
+    width: 100%;
+    position: static;
+    align-items: center;
+    text-align: center;
+    /* left: 100%; */
+    bottom: 50%;
+    transform: translate(-10%);
+}
+.author-talk h2{
+    color: black;
+    font-size: 45px;
+}
+
+.sub-section .imagee img{
+width: 60rem;
+}
+.sub-writeup{
+    width: 100%;
+    margin-top: 5rem;
+    /* margin-left: 25px; */
+    /* margin-right: 25px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
  .modal-content {
     background-color: rgb(255, 255, 255);
@@ -1954,6 +2011,12 @@ footer .hero{
 
 
  }
+
+ /* @media (min-width: 768px) {
+    .gallery {
+      grid-template-columns: repeat(1, 1fr);
+    }
+} */
 
  @media screen and (max-width:750px) {
 
@@ -2042,6 +2105,19 @@ input{
     width: auto;
 }
 
+.sub-section .imagee img{
+    width: 40rem;
+    }
+.sub-section .imagee{
+    width: 100%;
+    position: static;
+    align-items: center;
+    text-align: center;
+    /* left: 100%; */
+    bottom: 50%;
+    transform: translate(-25%);
+}
+
 .learn-more-cta{
 
     padding: 15px 5px;
@@ -2049,6 +2125,13 @@ input{
     letter-spacing: 1px;
        
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 50px;
+  }
+
 footer{
     padding: 30px 10px;
 }
