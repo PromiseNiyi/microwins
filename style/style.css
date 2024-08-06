@@ -772,9 +772,7 @@ width: 15px;
 }
 
 @media  (max-width:1500px) {
-    .author-talk h2{
-        /* margin-right: 10rem; */
-    }
+
     .sub-section img{
         width: 75rem;
  }
