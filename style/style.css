@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Articulat CF Normal';
-    src: url('font/subset-ArticulatCF-Normal.woff2') format('woff2'),
-        url('font/subset-ArticulatCF-Normal.woff') format('woff');
+    src: url('subset-ArticulatCF-Normal.woff2') format('woff2'),
+        url('subset-ArticulatCF-Normal.woff') format('woff');
+        /* src: url(/ArticulatCF-Normal.otf); */
     font-weight: normal;
     font-style: normal;
     font-display: optional;
@@ -9,17 +10,18 @@
 
 @font-face {
     font-family: 'Articulat CF';
-    src: url('font/subset-ArticulatCF-Bold.woff2') format('woff2'),
-        url('font/subset-ArticulatCF-Bold.woff') format('woff');
+    src: url('subset-ArticulatCF-Bold.woff2') format('woff2'),
+        url('subset-ArticulatCF-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: optional;
 }
 
 @font-face {
-    font-family: 'Optician Sans';
-    src: url('font/subset-OpticianSans-Regular.woff2') format('woff2'),
-        url('font/subset-OpticianSans-Regular.woff') format('woff');
+    font-family:'Optician Sans';
+    src: url('subset-OpticianSans-Regular.woff2') format('woff2'),
+        url('subset-OpticianSans-Regular.woff') format('woff');
+    /* src: url(/Optician-Sans.otf); */
     font-weight: normal;
     font-style: normal;
     font-display: optional;
@@ -30,7 +32,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'Optician Sans', sans-serif;
+    font-family: 'Optician Sans';
     
     
 }
@@ -79,7 +81,7 @@ html{
 
 .book-mock{
     flex: 1;
-    max-width: 750px;
+    max-width: 700px;
     width: auto;
 }
 
@@ -129,6 +131,7 @@ html{
     color:  rgb(249, 228, 0);
     /* margin-top: 15rem; */
     margin-left: -15px;
+    font-family: 'Optician Sans';
     /* line-height: 8rem; */
 }
 
@@ -328,7 +331,7 @@ button{
     }
 
 .writeups{
-    margin-top: 10rem;
+    margin-top: 8rem;
     /* align-items: center; */
     /* text-align: center; */
     margin-bottom: 35px;
@@ -1220,7 +1223,7 @@ form .consent{
 }
 
 .writeups4 p{
-    font-family: Articulat CF;
+     font-family: 'Articulat CF Normal';
     color: #000;
     padding: 10px;
     line-height: 30px;
