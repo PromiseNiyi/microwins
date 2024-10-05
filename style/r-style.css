@@ -1,0 +1,203 @@
+#home{
+    height: 100vh;
+    background-image:  url(/images/Headerimagecopy.png);
+    background-size: cover;
+}
+
+
+.glossary-page{
+    min-height: 50vh;
+    text-align: center;
+    padding: 50px;
+}
+
+.glossary-page h1,.arts h1 {
+    color: black;
+    margin-bottom: 100px;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.glossary{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 45px;
+    
+}
+.book-ad{
+    /* background-color: rgb(249, 228, 0); */
+    /* background-image: url(/images/MICROWINS\ Workbook\ Cover.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* width: 250px; */
+    /* min-height: 70%; */
+    /* height: 350px; */
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5))
+}
+.book-ad img{
+    width: 250px;
+}
+
+.ad-writeup{
+    text-align: left;
+    width: 500px;
+}
+
+.ad-writeup h2, .ad-writeup p{
+    color: black;
+}
+
+.ad-writeup h2{
+    font-size: 3rem;
+    font-weight: normal;
+}
+.ad-writeup p{
+    font-family: 'Articulat CF Normal';
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 25px;
+
+}
+
+
+.ad-writeup button{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(249, 228, 0);
+    color: black;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 15px 25px; 
+    margin-top: 10px;
+
+}
+
+.ad-writeup button:hover{
+    background-color: rgb(242, 222, 5);
+    transition: all ease-in .5s;
+}
+.ad-writeup button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.arts{
+    min-height:70vh ;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.art-sections{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    /* display: inline-block; */
+}
+
+
+.art-grid {
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* gap: 100px; */
+    max-width: 1200px;
+    margin: auto;
+}
+.art-grid div {
+    /* text-align: left; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.art-grid img {
+    width: 250px;
+    height: auto;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+}
+.download-btn {
+    /* margin-top: 10px; */
+    /* display: inline-block; */
+    text-align: center;
+    padding: 10px 5px;
+    /* background-color: rgb(249, 228, 0); */
+    color: rgb(23, 23, 23);
+    border: none;
+    text-decoration: none;
+    /* width: 100px; */
+    font-weight: 900;
+    font-size: 16px;
+    transition: all ease-in-out .2s;
+}
+
+
+.download-btn:hover {
+    /* background-color: rgb(249, 228, 0); */
+    transform: translateX(5px);
+
+}
+
+
+@media screen and (max-width:950px) {
+   
+    .glossary-page h1,.arts h1 {
+        font-size: 3rem;
+  }
+    .art-grid {
+        display: flex;
+        /* grid-template-columns: repeat(1, 1fr); */
+    }
+
+    .art-grid img {
+        width: 200px;
+        height: auto;
+        /* gap: 6x; */
+    }
+
+
+    .book-ad img{
+        width: 200px;
+    }
+
+}
+
+
+@media screen and (max-width:750px) {
+  
+    .art-grid {
+
+        flex-direction: column;
+
+    }
+
+    .ad-writeup h2{
+        font-size: 1.8rem;
+    }
+
+    .glossary-page h1,.arts h1 {
+          font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+
+.glossary{
+flex-direction: column;
+}
+
+.ad-writeup{
+    text-align: center;
+    width: 100%;
+}
+}

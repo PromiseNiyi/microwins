@@ -1,0 +1,55 @@
+#home{
+    background-position:top ;
+    background-color: black;
+    height: 30vh;
+}
+
+.print-display{
+    min-height: 70vh;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.book-ad img{
+    width: 450px;
+}
+
+.glossary{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 65px;
+    
+}
+
+.ad-writeup{
+    text-align: left;
+    width: 700px;
+}
+
+
+.ad-writeup h1{
+    color: black;
+    font-size: 5rem;
+}
+
+
+@media screen and (max-width:950px) {
+
+
+    .book-ad img{
+        width: 300px;
+    }
+    .glossary{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .ad-writeup{
+        text-align: center;
+        width: 100%;
+    }
+}
