@@ -31,11 +31,17 @@
     max-width: 1000px;
 }
 
+#writeup-width{
+max-width: 1200px;
+}
+
 
 .ad-writeup h1{
     color: black;
     font-size: 4.5rem;
 }
+
+
 
 .other-downloads{
 min-height: 60vh;
@@ -122,7 +128,7 @@ padding: 25px;
         flex-direction: column;
         gap: 25px;
     }
-    .ad-writeup{
+    .ad-writeup, #writeup-width{
         text-align: center;
         width: 100%;
     }
