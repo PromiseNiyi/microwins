@@ -1,8 +1,57 @@
+@font-face {
+    font-family: 'Articulat CF Normal';
+    src: url('subset-ArticulatCF-Normal.woff2') format('woff2'),
+        url('subset-ArticulatCF-Normal.woff') format('woff');
+        /* src: url(/ArticulatCF-Normal.otf); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Articulat CF';
+    src: url('subset-ArticulatCF-Bold.woff2') format('woff2'),
+        url('subset-ArticulatCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family:'Optician Sans';
+    src: url('subset-OpticianSans-Regular.woff2') format('woff2'),
+        url('subset-OpticianSans-Regular.woff') format('woff');
+    /* src: url(/Optician-Sans.otf); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+
 #home{
     height: 100vh;
     background-image:  url(/images/Headerimagecopy.png);
     background-size: cover;
 }
+
+.resource-writeups{
+    position: absolute;
+    top:40%;
+    right: 10%;
+}
+
+.resource-writeups h1{
+    color: rgb(249, 228, 0);
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+.resource-writeups p{
+    font-family: 'Articulat CF';
+    font-size: 45px;
+    font-weight: normal;
+}
+
 
 
 .glossary-page{
@@ -169,11 +218,28 @@
         width: 200px;
     }
 
+    .resource-writeups{
+        position: absolute;
+        top:40%;
+        /* right: 0; */
+    }
+
 }
 
 
 @media screen and (max-width:750px) {
   
+
+    .resource-writeups h1{
+        font-size: 4rem;
+      }
+    
+    .resource-writeups p{
+       font-size: 35px;
+    }
+    
+
+
     .art-grid {
 
         flex-direction: column;
@@ -188,9 +254,30 @@
           font-size: 2.5rem;
     }
 
+
+
+
 }
 
 @media screen and (max-width:550px) {
+
+    #home{
+        height: 60vh;
+    }
+.resource-writeups{
+        position: absolute;
+        top: 25%;
+        right: auto;
+        /* transform: translateX(50%, -50%); */
+}
+.resource-writeups h1{
+    font-size: 3.5rem;
+  }
+
+.resource-writeups p{
+   font-size: 25px;
+}
+
 
 .glossary{
 flex-direction: column;
