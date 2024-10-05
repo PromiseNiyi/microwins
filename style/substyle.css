@@ -1,7 +1,7 @@
 #home{
     background-position:top ;
     background-color: black;
-    height: 30vh;
+    height: 25vh;
 }
 
 .print-display{
@@ -39,7 +39,70 @@
 
 .other-downloads{
 min-height: 60vh;
+background-color: #f7f7f7;
+padding: 25px;
 }
+
+
+
+
+
+.download-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.download-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+.download-btn {
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+
+
+
+/* .download-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-top: 2px solid #ddd;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
