@@ -28,15 +28,26 @@
 
 .ad-writeup{
     text-align: left;
-    width: 700px;
+    max-width: 1000px;
 }
 
 
 .ad-writeup h1{
     color: black;
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
+.other-downloads{
+min-height: 60vh;
+}
+
+
+
+@media screen and (max-width:1050px) {
+    .book-ad img{
+        width: 350px;
+    }
+}
 
 @media screen and (max-width:950px) {
 
@@ -51,5 +62,15 @@
     .ad-writeup{
         text-align: center;
         width: 100%;
+    }
+
+    .ad-writeup h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .ad-writeup h1{
+        font-size: 2.5rem;
     }
 }
