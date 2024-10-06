@@ -104,7 +104,8 @@
     font-weight: normal;
 }
 .ad-writeup p{
-    font-family: 'Articulat CF Normal';
+    font-family: 'Articulat CF';
+    font-weight: normal;
     font-size: 18px;
     letter-spacing: .5px;
     line-height: 25px;
@@ -174,7 +175,8 @@
     text-align: center;
     max-width: 300px;
     margin-top: 10px;
-    font-family: 'Articulat CF Normal';
+    font-family: 'Articulat CF';
+    font-weight: normal;
     font-size: 18px;
     letter-spacing: .5px;
     line-height: 25px;
