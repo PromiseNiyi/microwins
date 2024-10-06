@@ -198,6 +198,10 @@
 
 
 @media screen and (max-width:950px) {
+
+    #home{
+        background-position: right;
+    }
    
     .glossary-page h1,.arts h1 {
         font-size: 3rem;
