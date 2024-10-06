@@ -222,11 +222,6 @@
         width: 200px;
     }
 
-    .resource-writeups{
-        position: absolute;
-        top:40%;
-        /* right: 0; */
-    }
 
 }
 
@@ -280,6 +275,7 @@
 
 .resource-writeups p{
    font-size: 25px;
+   padding: 010px;
 }
 
 

@@ -1,8 +1,16 @@
 #home{
     background-position:top ;
     background-color: black;
-    height: 25vh;
+    height: 30vh;
 }
+
+.resource-writeups{
+    position: absolute;
+    top: 10%;
+
+}
+
+
 
 .print-display{
     min-height: 70vh;
@@ -127,8 +135,9 @@ padding: 25px;
 }
 
 @media screen and (max-width:950px) {
-
-
+    #home{
+        background-position:right ;
+    }
     .book-ad img{
         width: 300px;
     }
@@ -144,10 +153,32 @@ padding: 25px;
     .ad-writeup h1{
         font-size: 3rem;
     }
+
+    .resource-writeups{
+        position: absolute;
+        top:25%;
+        right: 10%;
+
+    }
+    .resource-writeups h1{
+        font-size: 4rem;
+      }
+
 }
 
 @media screen and (max-width:550px) {
     .ad-writeup h1{
         font-size: 2.5rem;
     }
+
+    .resource-writeups{
+        position: absolute;
+        top: 25%;
+        right: auto;
+        /* transform: translateX(50%, -50%); */
+}
+.resource-writeups h1{
+    font-size: 3.5rem;
+  }
+
 }
