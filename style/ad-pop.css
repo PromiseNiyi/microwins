@@ -85,17 +85,19 @@
   }
 
   /* Responsive styling */
-  @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 950px) {
     .ad-popup {
-      flex-direction: column;
-      align-items: center;
+        max-width: 350px;
+        flex-direction: column;
+        align-items: center;
     }
-    
     .ad-popup img {
-      margin: 0 0 20px 0;
-      max-width: 100%;
-    }
-    .ad-popup-content {
+        margin: 0 0 20px 0;
+        max-width: 100%;
+      }
+
+      .ad-popup-content {
         margin-bottom: 20px;
         margin-top: 10px;
     }
@@ -108,9 +110,21 @@
       .ad-popup h2{
         font-size: 1.3rem;
       }
-
-      .ad-popup {
-        max-width: 850px;
+  }
+  @media screen and (max-width: 600px) {
+    .ad-popup {
+      flex-direction: column;
+      align-items: center;
+      max-width: 850px;
+    }
+    
+    .ad-popup img {
+      margin: 0 0 20px 0;
+      max-width: 100%;
+    }
+    .ad-popup-content {
+        margin-bottom: 20px;
+        margin-top: 10px;
     }
 
 
