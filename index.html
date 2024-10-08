@@ -18,6 +18,7 @@
 
 
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/ad-pop.css">
 </head>
 <body>
     <section class="land-section" id="home">
@@ -64,6 +65,21 @@
 
         <button class="ordernow-cta resize-order" id="ordercta">ORDER NOW</button>
         </div>
+<!---------------------- popup ad------------------- -->
+<div class="ad-popup-overlay" id="ad-popupOverlay">
+    <div class="ad-popup">
+      <img src="images/ad-popup.png" alt="Aesthetic Image">
+      <div class="ad-popup-content">
+        <button class="ad-close-popup" id="ad-closePopup">X</button>
+        <h2>ACCESS ALL</h2>
+        <h1>MICROWINS</h1>
+        <h2>WORKBOOK & ARTWORK</h2>
+        <p>Click the button below to learn more.</p>
+        <a href="resources.html" target="_blank">DOWNLOAD HERE</a>
+      </div>
+    </div>
+  </div>
+<!---------------------- popup ad close------------------- -->
         <div class="writeups fade-in">
             <div class="main-land">
                 <h3>“High octane and highly actionable strategies packed inside of 177 pages.”</h3>
@@ -404,5 +420,27 @@
             }
         }
     </script>
+
+
+    <script>
+        // Show the popup after 5 seconds
+        window.onload = function() {
+        setTimeout(function() {
+            document.getElementById("ad-popupOverlay").style.display = "flex";
+        }, 5000);
+        };
+
+        // Close the popup when the X button is clicked
+        document.getElementById("ad-closePopup").onclick = function() {
+        document.getElementById("ad-popupOverlay").style.display = "none";
+        };
+    </script>
+
+
+
+
+
+
+
 </body>
 </html>
